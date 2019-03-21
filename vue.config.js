@@ -15,6 +15,7 @@ module.exports = {
         .set("api", resolve("src/api"))
         .set("assets", resolve("src/assets"))
         .set("components", resolve("src/components"))
+        .set("config", resolve("src/config"))
         .set("mixins", resolve("src/mixins"))
         .set("router", resolve("src/router"))
         .set("utils", resolve("src/utils"))
