@@ -22,7 +22,7 @@ switch(environment) {
     inform_url = 'http://125.208.1.66:10021/s50'
     sdkChat_url = 'https://dev.supporter.shixincube.cn'
     break
-  default:
+  default: // 默认为开发
     main_url = 'http://47.104.74.197:9995'
     answer_url = 'http://125.208.1.66:10950'
     inform_url = 'http://125.208.1.66:10021/s50'

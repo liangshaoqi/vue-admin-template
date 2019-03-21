@@ -1,0 +1,6 @@
+// 垂直居中
+@mixin flex-vertical-center {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
