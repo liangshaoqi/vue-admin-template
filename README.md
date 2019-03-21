@@ -1,18 +1,20 @@
 # app
-
-## Project setup
 ```
-yarn install
+基于vue的后台管理系统模板
+```
+## 项目安装
+```
+cnpm i 
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn run serve
+npm start
 ```
 
 ### Compiles and minifies for production
 ```
-yarn run build
+npm run build
 ```
 
 ### Run your tests

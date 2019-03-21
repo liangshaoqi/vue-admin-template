@@ -6,11 +6,13 @@
     "serve": "vue-cli-service serve",
     "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "dist": "vue-cli-service build & node dist-start.js"
   },
   "dependencies": {
     "axios": "^0.18.0",
     "element-ui": "^2.6.1",
+    "express": "^4.16.4",
     "md5": "^2.2.1",
     "nprogress": "^0.2.0",
     "vue": "^2.6.6",
