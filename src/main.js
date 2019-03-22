@@ -6,6 +6,8 @@ import ElementUI from 'element-ui'
 import router from './router'
 import './assets/styles/reset.css'
 import 'element-ui/lib/theme-chalk/index.css'
+// 覆盖样式
+import './assets/styles/reset_element-ui.scss'
 
 Vue.config.productionTip = false
 Vue.use(ElementUI)

@@ -22,6 +22,11 @@ service.interceptors.request.use(
     nprogress.start()
     // 设置头部
     config.headers.post['Content-Type'] = 'application/x-www-form-urlencoded;charset=UTF-8'
+    // config.cancelToken = new axios.CancelToken((cencel) => {
+    //   if(cencel) {
+    //     store.commit('addCancelArr', cancel)
+    //   }
+    // })
     if(session_get('token')) {
       config.headers.adoptToken = session_get('token')
     }
@@ -66,6 +71,9 @@ service.interceptors.response.use(
   },
   (error) => {
     nprogress.done()
+    // if(error.message === 'cancel') {
+    //   return Promise.reject('cancel')
+    // }
     Message.error('请求异常,请检查网络。')
     return Promise.reject(error)
   }
