@@ -14,8 +14,8 @@ import md5 from 'md5'
 export default {
   data() {
     return {
-      loginName: 'admin',
-      password: 'admin321..'
+      loginName: '',
+      password: ''
     }
   },
   mounted() {
