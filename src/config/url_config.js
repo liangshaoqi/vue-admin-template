@@ -3,7 +3,7 @@ let main_url = null // 主地址(刘吉)
 let answer_url = null // 问答地址(舒子栋)
 let inform_url = null // 举报地址(舒子栋)
 let sdkChat_url = null // 举报消息查询地址(sdk提供)
-switch(environment) {
+switch (environment) {
   case 'prod': // 正式
     main_url = 'https://analysis-restful.spap.com'
     answer_url = 'https://spap-help.spap.com'
