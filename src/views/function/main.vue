@@ -18,7 +18,7 @@ export default {
         platformId: -1
       }
       getchart(data).then((res) => {
-        console.log(res)
+        // console.log(res)
       })
     }
   }

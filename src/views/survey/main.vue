@@ -13,7 +13,7 @@ export default {
   methods: {
     getData() {
       getPlatform().then((res) => {
-        console.log(res)
+        // console.log(res)
       })
     }
   }

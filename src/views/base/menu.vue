@@ -22,7 +22,7 @@
         <!-- 下级菜单 -->
         <el-menu-item-group>
           <el-menu-item
-            v-for="(c_item, c_key, c_index) in item.children"
+            v-for="c_item in item.children"
             :index="c_item.path"
             :key="c_item.path"
           >{{c_item.title}}</el-menu-item>
@@ -52,7 +52,7 @@ export default {
     },
     handleClose() {}
   }
-};
+}
 </script>
 
 <style lang='scss'>
